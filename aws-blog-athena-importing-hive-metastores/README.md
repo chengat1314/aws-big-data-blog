@@ -25,8 +25,8 @@ EMR $> unzip apache-groovy-binary-2.4.7.zip
 EMR $> export PATH=$PATH:`pwd`/groovy-2.4.7/bin/:
 
 # Download latest Athena JDBC driver and set it in JAVA CLASSPATH
-EMR $> aws s3 cp s3://athena-downloads/drivers/AthenaJDBC41-1.0.0.jar .
-EMR $> export CLASSPATH=`pwd`/AthenaJDBC41-1.0.0.jar:;
+EMR $> aws s3 cp s3://athena-downloads/drivers/AthenaJDBC41-1.1.0.jar .
+EMR $> export CLASSPATH=`pwd`/AthenaJDBC41-1.1.0.jar:;
 ```
 
 ### Running the Scripts

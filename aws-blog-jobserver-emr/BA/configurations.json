@@ -12,5 +12,13 @@
     "Properties" : {
       "maximizeResourceAllocation" : "true"
     }
+  },
+  {
+    "classification":"hive-site",
+    "properties":{
+      "javax.jdo.option.ConnectionURL":"jdbc:mariadb://hive-metastore-maria.c7rwmihboab9.ap-southeast-1.rds.amazonaws.com:3306/hive?createDatabaseIfNotExist=true",
+      "javax.jdo.option.ConnectionUserName":"hive",
+      "javax.jdo.option.ConnectionPassword":"hivemetastore"
+    }
   }
 ]
